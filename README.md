@@ -1,0 +1,2 @@
+# jsOCR
+Javascript Basic OCR

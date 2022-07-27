@@ -1,0 +1,51 @@
+*,::before,::after{
+    box-sizing: border-box;
+}
+html,body{
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+}
+#pageTitle{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+#pagesubTitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.mainDiv{
+    margin: 5% auto;
+    width: 50%;
+    height: 50%;
+}
+.subDiv{
+    text-align: left;
+    margin: 0 25%;
+    width: 100%;
+}
+input{
+    margin: 5px 0;
+    width: 50%;
+}
+input[type="file"]{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+input[type="button"]{
+    border-radius: 10px;
+    border: 0;
+    background-color: #0066ff;
+    border-bottom: 3px solid #0052cc;
+    padding: 0.5%;
+    color: white;
+    font-weight: 700;
+}
+#resText{
+    margin: 10px 0;
+    width: 50%;
+}
